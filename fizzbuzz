@@ -1,0 +1,25 @@
+Fizz buzz program
+
+
+#include <stdio.h>
+int main()
+{
+int x;
+
+for ( x = 1; x <= 100; x++ )
+{
+   if (x%3==0)
+   {
+      printf("fizz");
+   }
+   if (x%5==0)
+   {
+      printf("buzz");
+   }
+   if(x%3 && x%5)
+   {
+      printf("%d",x);
+   }
+   printf("\n");           
+}
+}
